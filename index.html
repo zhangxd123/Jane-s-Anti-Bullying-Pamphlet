@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane's Anti-Bullying Pamphlet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Jane's Anti-Bullying Pamphlet</div>
+        <nav>
+            <ul>
+                <li class="active"><a href="#comics">漫画书</a></li>
+                <li><a href="#speech">宣讲视频</a></li>
+                <li><a href="#making">制作掠影</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="comics" class="section active">
+            <div class="comic-container">
+                <button class="arrow left-arrow">&lt;</button>
+                <div class="comic-image">
+                    <img src="D:/jane/P1.png" alt="漫画第1页">
+                </div>
+                <button class="arrow right-arrow">&gt;</button>
+                <div class="indicators"></div>
+            </div>
+        </section>
+
+        <section id="speech" class="section">
+            <div class="video-container">
+                <video controls>
+                    <source src="D:/jane/v.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            </div>
+        </section>
+
+        <section id="making" class="section">
+            <div class="video-container">
+                <video controls>
+                    <source src="D:/jane/making.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
